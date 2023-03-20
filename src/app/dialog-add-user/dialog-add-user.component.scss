@@ -1,0 +1,11 @@
+.user-inputs {
+    max-width: 418px;
+}
+
+@media (width <= 582px) {
+    .user-inputs {
+        mat-form-field {
+            width: 100%;
+        }
+    }
+}
